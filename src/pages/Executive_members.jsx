@@ -4,7 +4,7 @@ import PanelMemberCard from "../components/ui/PanelMemberCard";
 import { Link } from "react-router-dom";
 import { banner_style } from "../Styles/styles";
 
-import page from "../assets/Images1/PageBannersPeptides.png"
+import page from "../assets/Images1/emp.avif"
 const Executive_members = () => {
   return (
     <section className="cw-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">

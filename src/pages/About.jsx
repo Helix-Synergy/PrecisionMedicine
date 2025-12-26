@@ -29,13 +29,13 @@ const data = {
 The <Link to= "/precisionmedicine-orators"   className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-       World Future FoodTech Conference,</Link>  organized by Helix Conferences, is a distinguished international forum dedicated to advancing cutting-edge food technologies and sustainable food system solutions that support nutrition security, environmental stewardship, and economic resilience.
-     The conference is designed to facilitate high-level knowledge exchange, cross-sector collaboration, and evidence-based dialogue that accelerates the commercialization and adoption of future food innovations. Key focus areas include alternative proteins, cellular agriculture, precision fermentation, sustainable ingredients, <Link to= "/precisionmedicine-orators"   className="
+       World Conference on Precision Medicine,</Link>   organized by Helix Conferences, is a distinguished international forum dedicated to advancing personalized diagnostics, targeted therapies, genomic medicine, and data-driven healthcare solutions that enhance clinical effectiveness, healthcare sustainability, and global patient outcomes.
+    The conference is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of precision medicine across healthcare systems. Key focus areas include genomics and proteomics, molecular pathology,  <Link to= "/precisionmedicine-tracks/"     className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-food biotechnology</Link>, smart processing, food safety, digitalization, and climate-resilient food systems.
+pharmacogenomics,</Link> AI-driven diagnostics, biomarker discovery, digital health integration, and translational medicine.
          
-        Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and research-driven presentations, participants gain strategic insights into emerging technologies, evolving consumer trends, regulatory landscapes, and scalable business models shaping the future of food.
+       Through plenary sessions, keynote addresses, expert-led panels, technical workshops, and scientific research presentations, participants will gain strategic insights into emerging technologies, scalable precision medicine models, regulatory landscapes, and evolving global healthcare policies.
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
@@ -55,53 +55,54 @@ food biotechnology</Link>, smart processing, food safety, digitalization, and cl
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders, innovators, and policymakers in shaping a resilient, nutritious, and sustainable global food ecosystem..",
+       "Join global leaders and innovators in shaping the future of healthcare through precision medicine excellence..",
     },
   ],
 highlights: [
   {
     title: "Distinguished Keynote Speakers",
     description:
-      "Engage with internationally recognized leaders driving innovation in food technology, nutrition, and sustainable food systems.",
+      "Engage with internationally recognized experts and thought leaders in precision medicine, genomics, molecular diagnostics, and personalized therapeutics.",
   },
   {
     title: "Technical Workshops & Expert Sessions",
     description:
-      "Participate in in-depth sessions covering alternative proteins, food biotechnology, smart manufacturing, and next-generation food solutions.",
+      "Participate in in-depth sessions focused on genomic medicine, AI-driven diagnostics, biomarker development, molecular pathology, and targeted treatment strategies.",
   },
   {
     title: "Innovation & Technology Exhibition",
     description:
-      "Explore breakthrough food technologies, ingredient innovations, processing solutions, and future-ready food platforms.",
+      "Explore advanced precision medicine technologies, digital health platforms, genomic tools, diagnostic solutions, and personalized therapeutic innovations.",
   },
   {
     title: "Strategic Networking Opportunities",
     description:
-      "Connect with global stakeholders across food innovation, industry, investment, academia, and policy.",
+      "Build meaningful connections with global stakeholders across academia, healthcare institutions, industry, regulatory bodies, and investment sectors.",
   },
   {
-    title: "Soil Health, Climate & Biodiversity Focus",
+    title: "Genomics, Data & Personalized Care Focus",
     description:
-      "Gain insights into climate-smart food production, circular food systems, and globally aligned sustainability frameworks.",
+      "Gain insights into internationally aligned frameworks, data-driven medicine, ethical genomics, and patient-centered healthcare models.",
   },
   {
     title: "Scientific & Market Intelligence",
     description:
-      "Discover the latest research, consumer trends, regulatory updates, and commercialization pathways in future foodtech.",
+      "Discover the latest research breakthroughs, clinical applications, market trends, and commercialization pathways in precision medicine.",
     linkText: "View event schedule",
-    link: "/precisionmedicine-event-schedule" ,
+    link: "/precisionmedicine-event-schedule",
   },
   {
     title: "Collaboration & Partnership Platforms",
     description:
-      "Build cross-sector partnerships to accelerate innovation, scale solutions, and drive market impact.",
+      "Foster cross-sector collaborations to advance research translation, clinical innovation, and scalable precision healthcare solutions.",
   },
   {
     title: "Professional Development & Accreditation",
     description:
-      "Earn professional development recognition through certified learning sessions and advanced technical workshops.",
+      "Earn professional development recognition through certified learning sessions and hands-on technical workshops.",
   },
 ],
+
 
 
 
@@ -131,7 +132,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
- Fostering Innovation Shaping the Future of Food
+Fostering Collaboration Driving Precision Healthcare Impact.
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -171,25 +172,25 @@ const AboutPublicHealth = () => {
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-             Food Technology and Food Science Researchers
+             Precision Health Ecosystem
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-  Food & Beverage Manufacturers and Product Developers
+ Integrated Biomedical Innovation
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-     Agri-Food Startups and Entrepreneurs
+  Translational Health Intelligence
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-            AI, Data Analytics, and Digital Food System Experts
+     Genomic Healthcare Advancement
             </h3>
           </div>
         </div>

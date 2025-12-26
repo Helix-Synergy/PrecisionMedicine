@@ -1,40 +1,40 @@
 // Techmatics Images
-import Patimakorn from "../../assets/Orator Banners/Patimakorn.png"
-import Gregory from "../../assets/Orator Banners/Gregory.png"
-import Monica from "../../assets/Orator Banners/Monica.png"
-import Simen from "../../assets/Orator Banners/Simen.png"
+import Frank from "../../assets/Orator Banners/Frank.png"
+import Erin from "../../assets/Orator Banners/Erin.png"
+import Ena from "../../assets/Orator Banners/Ena.png"
+import Slim from "../../assets/Orator Banners/Slim.png"
 
   export const orators = [
     {
       id: "andreas-m-papas",
-      image: Patimakorn,
-      name: "Patimakorn Klaiprasitti",
-      from: "Thailand",
-      about: "University of Khon Kaen",
+      image: Frank,
+      name: "Frank Schmidt",
+      from: " Qatar",
+      about: "Weil Cornell Medicine in Qatar",
       // link: "/techmatics-orators/siti-rahman"
     },
     {
       id: "maria-richards-brown",
-      image: Gregory,
-      name: "Gregory Cohen",
-      from: "France",
-      about: "University of Bordeaux INP",
+      image: Erin,
+      name: "Erin Riggs",
+      from: " United States",
+      about: "Geisinger",
       // link: "/techmatics-orators/abdullah-aydin",
     },
     {
       id: "rassa-pegahi",
-      image: Monica,
-      name: " Monica Scordino",
-      from: "Italy",
-      about: "Italian Ministry of Agriculture",
+      image: Ena,
+      name: " Dr. Ana Cvejic",
+      from: "Denmark",
+      about: "University of Copenhagen",
       // link: "/techmatics-orators/janani-varun",
     },
     {
       id: "anna-w-sobanska",
-      image: Simen,
-      name: "Simeon Omale",
-      from: "Nigeria",
-      about: "University of Jos",
+      image: Slim,
+      name: "Slim slama",
+      from: " Qatar",
+      about: "World Innovation Summit for Health(WISH)",
       // link: "/techmatics-orators/abdeen-omer",
     },
     // Second row

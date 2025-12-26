@@ -1,108 +1,107 @@
 import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import { Link } from "react-router-dom";
-// Images for agri
-import FoodProcessing from "../assets/tracks/FOOD processing technologies.jpeg";
-import FoodEngineering from "../assets/tracks/food engineering.jpeg"
-import Thermal  from "../assets/tracks/Thermal & non thermal preservation methods.jpeg";
-import FoodBio from "../assets/tracks/food biotechnology -enzymes &fermentation.jpeg";
-import Probiotics from "../assets/tracks/probiotics &functional food innovation.jpeg";
-import Alternative from "../assets/tracks/Alternative proteins plant based cultured&fermentation- derived.jpeg"
-import Nutra from "../assets/tracks/Nutraceuticals& bioactive compounds.png";
-import FoodSafety from "../assets/tracks/food safety management.jpeg"
-import FoodQuality from "../assets/tracks/food quality assurance& shelf line modeling.jpeg";
-import Standards from "../assets/tracks/standards &global regulartory compliances.jpeg"
-import FoodFraud from "../assets/tracks/food fraud dection &analytical technology.jpeg";
-import FoodProcessing1 from "../assets/tracks/food processing &green technologies.jpeg"
-import FoodWaste from "../assets/tracks/food waste reduction &circular food system.jpeg";
-import Smart from "../assets/tracks/smart biodergradable &edible packaging.jpeg"
-import climate from "../assets/tracks/climate smartfood system&life cycle assessment.jpeg";
-import iot1 from "../assets/tracks/IOT automation &smart manufacturing.jpeg"
-import DataAnalystic from "../assets/tracks/Data analytics for food innovation.jpeg"
-import DigitalTwins from "../assets/tracks/Digital twins predictive modeling in food processing.png";
-import Precison1 from "../assets/tracks/precision fermentation.jpeg"
-import Cold from "../assets/tracks/cold plasma preservation.jpeg"
+
+import img1 from "../assets/tracks/img1.jpeg";
+import img2 from "../assets/tracks/img2.jpeg"
+import img3  from "../assets/tracks/img3.jpeg";
+import img4 from "../assets/tracks/img4.jpeg";
+import img5 from "../assets/tracks/img5.jpeg";
+import img6 from "../assets/tracks/img6.jpeg"
+import img7 from "../assets/tracks/img7.jpeg";
+import img8 from "../assets/tracks/img8.jpeg"
+import img9 from "../assets/tracks/img9.jpeg";
+import img10 from "../assets/tracks/img10.png"
+import img11 from "../assets/tracks/img11.jpeg";
+import img12 from "../assets/tracks/img12.jpeg"
+import img13 from "../assets/tracks/img13.jpeg";
+import img14 from "../assets/tracks/img14.jpeg"
+import img15 from "../assets/tracks/img15.png";
+import img16 from "../assets/tracks/img16.jpeg"
+import img17 from "../assets/tracks/img17.jpeg"
+import img18 from "../assets/tracks/img18.jpg";
+import img19 from "../assets/tracks/img19.jpeg"
+import img20 from "../assets/tracks/img20.webp"
 
 export const tracks = [
   {
-    image: FoodProcessing,
+    image: img1,
     title: "AI in Healthcare",
     description: (
       <>
-This track explores advanced food processing technologies including High Pressure Processing (HPP), Pulsed Electric Fields (PEF), Ultrasound, and Ohmic Heating. It highlights their role in improving food safety, extending shelf life, preserving nutrients, enhancing quality, and enabling sustainable, energy-efficient food manufacturing practices.{" "}
+This track examines artificial intelligence applications across{" "}
         <Link
-          to="/executive-panel-members/"
+          to="/contact"
           className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-       
-        </Link>
+        healthcare,
+        </Link> including clinical decision support, predictive analytics, diagnostics, imaging, and operational efficiency. Sessions address ethical AI, data governance, algorithm validation, regulatory challenges, and real-world deployment of AI systems enabling precision medicine, personalized care, and improved patient outcomes globally.
    
       </>
     ),
   },
 
   {
-    image: FoodEngineering,
+    image: img2,
     title: "Pharma & Biotech",
     description: (
       <>
-        Examines the principles and applications of food engineering in modern food systems. Topics include process design, heat and mass transfer, equipment innovation, modeling, automation, and scale-up strategies that enhance efficiency, product quality, safety, sustainability, and industrial performance across{" "}
+This track highlights innovations within{" "}
         <Link
-          to="/"
+          to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-         food manufacturing sectors.
-        </Link>{" "}
+        pharmaceutical and biotechnology
+        </Link>{" "}  industries driving precision medicine. Topics include biologics, targeted therapies, translational research, clinical pipelines, regulatory strategies, manufacturing advances, and strategic partnerships accelerating drug discovery, development, and commercialization for personalized, effective, and sustainable healthcare solutions worldwide.
        
       </>
     ),
   },
 
   {
-    image: Thermal,
+    image: img3,
     title: "Genomics & Multi-Omics",
     description: (
       <>
-     Thermal & Non-Thermal Preservation Methods
-This track covers thermal and non-thermal preservation methods used to ensure food safety and quality. It addresses conventional heat treatments alongside emerging technologies that extend shelf life, inactivate microorganisms, retain nutritional value, and support clean-label, sustainable{" "}
+  This track focuses on genomics, transcriptomics, proteomics{" "}
         <Link
           to="/precisionmedicine-event-schedule" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-      food preservation solutions.
-        </Link> 
+   metabolomics,
+        </Link>  and integrated multi-omics approaches. Discussions explore disease risk prediction, biomarker discovery, molecular profiling, data integration, and clinical translation of omics insights into personalized diagnostics, targeted therapies, and population-scale precision health initiatives.
       </>
     ),
   },
 
   {
-    image: FoodBio,
+    image: img4,
     title: "Public Health",
     description: (
       <>
-      This track explores food   {" "}
+     This track explores the integration of precision medicine into public health systems. Topics include population genomics, disease prevention, health equity, data-driven surveillance, policy development, and ethical frameworks enabling personalized interventions that improve community health outcomes and strengthen national and   {" "}
         <Link
-          to="/venue"
+          to="/precisionmedicine-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-   biotechnology 
+global public health resilience.
         </Link>{" "}
-with a focus on enzymes and fermentation. It highlights their role in improving processing efficiency, flavor development, nutritional enhancement, functional foods, shelf-life extension, and the production of innovative, sustainable, and value-added food products.
+
       </>
     ),
   },
 
   {
-    image: Probiotics ,
+    image: img5,
     title: "Advanced Precision Medicine",
     description: (
       <>
-    This track highlights innovations in probiotics and functional foods, focusing on formulation, delivery systems, stability, and health benefits. It explores science-driven approaches to gut health, immunity, personalized nutrition, regulatory trends, and the development of next-generation functional products for global markets.{" "}
+This track highlights next-generation precision medicine innovations, including systems biology, digital twins, AI-driven diagnostics, predictive modeling, and individualized therapeutic design. Sessions focus on clinical translation, scalability, interoperability, and future frameworks advancing deeply personalized, data-driven, and outcome-focused healthcare delivery systems worldwide.{" "}
         {/* <Link
           to="/foodtech-event-schedule"
           className="hover:text-accent hover:decoration-accent
@@ -116,136 +115,136 @@ with a focus on enzymes and fermentation. It highlights their role in improving 
   },
 
   {
-    image: Alternative,
+    image: img6,
     title: "Cancer biology",
     description: (
       <>
-Explores alternative protein innovations including plant-based, cultured, and fermentation-derived sources. It covers processing technologies, nutrition, scalability, sensory optimization, sustainability, regulatory challenges, and market adoption shaping the future of protein for resilient 
+This track examines molecular and cellular mechanisms underlying 
         <Link
-          to="/contact"
+          to="/about-precisionmedicine-conclave"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-      global food systems.
-        </Link>{" "}
+     cancer
+        </Link>{" "} development, progression, and resistance. Topics include tumor genomics, signaling pathways, tumor microenvironment, immune interactions, and translational discoveries informing targeted therapies, biomarker development, and precision oncology strategies for improved diagnosis and treatment outcomes.
      
       </>
     ),
   },
 
   {
-    image: Nutra,
+    image:  img7,
     title: "Cell & Gene therapies",
     description: (
       <>
-This track focuses on nutraceuticals and bioactive compounds, covering sources, extraction, formulation, and efficacy. It explores their role in disease prevention, wellness, functional food development, regulatory considerations, and innovative delivery systems supporting health-driven consumer demand.{" "}
-        <Link
-          to= "/precisionmedicine-orators"
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-       
-        </Link>{" "}
-      </>
-    ),
-  },
-
-  {
-    image:  FoodSafety,
-    title: "Women’s Health",
-    description: (
-      <>
-       This track addresses{" "}
+This track focuses on advances in gene editing, stem{" "}
         <Link
           to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-     food safety management systems 
-        </Link>{" "}
-       ensuring compliance and consumer protection. Topics include hazard analysis, risk assessment, regulatory standards, traceability, quality assurance, digital monitoring, and best practices to prevent contamination, ensure product integrity, and maintain safety across the food supply chain.practices.
+        cell technologies, 
+        </Link>{" "} CAR-T therapies, and regenerative medicine. Sessions address clinical development, manufacturing challenges, safety, regulatory pathways, and real-world applications transforming treatment paradigms for genetic disorders, cancer, and complex diseases through precision therapeutic approaches.
       </>
     ),
   },
 
   {
-    image: FoodQuality,
-    title:"Liquid Biopsies",
+    image: img8,
+    title: "Women’s Health",
     description: (
       <>
-      This track focuses on{" "}
+     This track addresses precision medicine approaches tailored to{" "}
         <Link
-          to= "/precisionmedicine-orators"
+          to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-         food quality assurance and shelf-life modeling
-        </Link>{" "}
-     strategies. It covers quality control systems, predictive modeling, packaging interactions, storage conditions, sensory evaluation, and data-driven approaches to optimize product stability, ensure compliance, reduce waste, and extend shelf life in food products.
+     women’s health 
+        </Link>{" "} across life stages. Topics include reproductive health, maternal care, gynecologic and breast cancers, hormonal disorders, sex-specific biology, and improving clinical research inclusion to advance equitable, personalized healthcare outcomes for women globally.
+    
       </>
     ),
   },
 
   {
-    image: Standards,
+    image: img9,
+    title:"Liquid Biopsies",
+    description: (
+      <>
+    This track explores non-invasive{" "}
+        <Link
+          to= "https://helixconferences.com/buy-a-ticket"
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+       diagnostic technologies
+        </Link>{" "} including circulating tumor DNA, exosomes, and blood-based biomarkers. Sessions focus on early disease detection, treatment monitoring, minimal residual disease assessment, clinical validation, and integration of liquid biopsy platforms into precision oncology and personalized disease management strategies.
+ 
+      </>
+    ),
+  },
+
+  {
+    image: img10,
     title: "Bioinformatics",
     description: (
       <>
- This track focuses on{" "}
-        <Link
+ This track covers computational methods supporting precision medicine, including genomic data analysis, machine learning, data integration, visualization, and cloud-based platforms. Discussions emphasize translating complex biological datasets into clinically actionable insights while addressing data quality, interoperability, scalability, and ethical data management challenges.{" "}
+        {/* <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
        standards and global regulatory compliance 
-        </Link>{" "}
- across food systems. It covers frameworks and guidelines from FSSAI, FDA, and EFSA, addressing food safety, labeling, approvals, risk assessment, documentation, and strategies for navigating international regulatory requirements and market access.
+        </Link>{" "} */}
+
       </>
     ),
   },
 
   {
-    image: FoodFraud,
+    image:img11,
     title:  "Neurology & Neurodegenerative",
     description: (
       <>
-       Examines {" "}
+    This track explores precision approaches to{" "}
         <Link
-          to="/about-foodtech-conclave"
+          to="/about-precisionmedicine-conclave" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-        food fraud detection and advanced analytical technologies 
-        </Link> used to ensure authenticity and integrity. It covers rapid testing, spectroscopy, chromatography, DNA-based methods, traceability tools, and data analytics to detect adulteration, verify origin, protect brands, and strengthen consumer trust.
+        neurological and neurodegenerative
+        </Link>  disorders such as Alzheimer’s, Parkinson’s, ALS, and multiple sclerosis. Topics include neurogenomics, biomarkers, imaging technologies, digital monitoring tools, and targeted therapies addressing disease heterogeneity, progression, and personalized patient care strategies.
       </>
 
     ),
   },
 
   {
-    image: FoodProcessing1,
+    image: img12,
     title:"Precision Oncology",
     description: (
       <>
- This track explores {" "}
-        <Link
+ This track focuses on personalized cancer care using molecular profiling, targeted therapies, immuno-oncology, and adaptive treatment strategies. Sessions address biomarker-driven clinical trials, resistance mechanisms, companion diagnostics, real-world implementation, and integrating precision oncology into routine clinical practice for improved patient outcomes. {" "}
+        {/* <Link
           to="/event_partners" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
     food processing innovations aligned with green technologies.
-        </Link>{" "}   It focuses on energy-efficient processes, waste valorization, water conservation, clean-label solutions, renewable inputs, and sustainable manufacturing strategies that reduce environmental impact while maintaining food quality, safety, and economic viability.
+        </Link>{" "}    */}
       
       </>
     ),
   },
 
   {
-    image: FoodWaste,
+    image: img13,
     title: "Genetic Disorders",
     description: (
       <>
-  This track addresses food waste reduction and circular food systems. It explores prevention strategies, by-product valorization, smart packaging, supply chain optimization, and policy frameworks that promote resource efficiency, sustainability, and the transition toward resilient, low-waste food ecosystems.{" "}
+This track addresses inherited and rare genetic diseases through precision diagnostics and therapies. Topics include genomic screening, gene-based treatments, newborn screening programs, ethical considerations, patient access, and translating genetic discoveries into personalized management strategies improving quality of life and long-term clinical outcomes.{" "}
         {/* <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
@@ -260,47 +259,47 @@ This track focuses on nutraceuticals and bioactive compounds, covering sources, 
   },
 
   {
-    image: Smart,
+    image: img14,
     title: "Digital Health & Wearables",
     description: (
       <>
-    Explores smart, biodegradable, and edible packaging innovations. It covers active and intelligent packaging, sustainable materials, biodegradability, food–package interactions, shelf-life extension, safety, and regulatory aspects driving eco-friendly packaging solutions for the  {" "}
+This track explores  {" "}
         <Link
-          to= "/precisionmedicine-tracks/"
+          to= "/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-        food industry.
-        </Link> 
+     digital technologies transforming healthcare,
+        </Link> including wearable devices, remote monitoring, mobile health applications, and real-time analytics. Sessions focus on patient engagement, continuous data collection, interoperability, regulatory considerations, and leveraging digital tools to enable personalized, preventive, and value-based healthcare delivery.
         
       </>
     ),
   },
 
   {
-    image: climate,
+    image: img15,
     title:  "Clinical Implementation",
     description: (
       <>
-       This track focuses on {" "}
-        <Link
+   This track addresses real-world adoption of precision medicine in healthcare settings. Topics include clinical workflows, physician education, reimbursement models, regulatory compliance, data integration, and strategies for embedding genomic, digital, and AI-driven tools into routine patient care and health system operations.{" "}
+        {/* <Link
           to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
         climate-smart food systems and Life Cycle Assessment 
-        </Link> (LCA). It examines carbon footprinting, resource efficiency, sustainable sourcing, climate resilience, impact assessment tools, and data-driven strategies to reduce environmental impacts across food production, processing, and supply chains.
+        </Link>  */}
      
       </>
     ),
   },
 
   {
-    image: iot1,
+    image: img16,
     title: "Cardiology & Metabolic Disease",
     description: (
       <>
-This track explores IoT, automation, and smart manufacturing in the food industry. It covers connected devices, sensors, robotics, real-time monitoring, data analytics, and process optimization to enhance efficiency, quality, traceability, and sustainability in modern food production systems. {" "}
+This track focuses on precision approaches to cardiovascular and metabolic conditions including heart disease, diabetes, and obesity. Topics include genetic risk assessment, biomarkers, personalized therapies, lifestyle interventions, and digital monitoring tools improving prevention, early diagnosis, and long-term disease management outcomes. {" "}
         {/* <Link
           to="/about-foodtech-conclave" 
           className="hover:text-accent hover:decoration-accent
@@ -313,26 +312,25 @@ This track explores IoT, automation, and smart manufacturing in the food industr
   },
 
   {
-    image: DataAnalystic,
+    image:img17,
     title: "Infectious Diseases",
     description: (
       <>
-     This track focuses on {" "}
+   This track explores precision medicine applications in {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-          data analytics for food innovation,
-        </Link> 
-     covering big data, AI, machine learning, predictive modeling, and consumer insights. It highlights how data-driven approaches optimize product development, quality, supply chains, personalization, and sustainability in the evolving food industry.
+          infectious disease 
+        </Link> prevention, diagnosis, and treatment. Topics include pathogen genomics, antimicrobial resistance, personalized therapeutics, vaccine development, outbreak surveillance, and data-driven strategies enhancing global preparedness and response to emerging and re-emerging infectious threats.
       </>
     ),
   },
 // Ethical
 
   {
-    image: DigitalTwins,
+    image:img18,
     title: "Biomarkers & Diagnostics",
     description: (
       <>
@@ -344,34 +342,34 @@ This track explores IoT, automation, and smart manufacturing in the food industr
         >
           microbiome research 
         </Link>  */}
-This track explores digital twins and predictive modeling in food processing. It covers virtual simulations, real-time monitoring, process optimization, quality control, and decision-support systems that enhance efficiency, reduce waste, ensure safety, and drive innovation in modern food manufacturing.
+This track focuses on discovery, validation, and clinical application of biomarkers for disease prediction, diagnosis, prognosis, and treatment response. Sessions address molecular diagnostics, companion diagnostics, regulatory pathways, analytical validation, and integrating biomarker-driven tools into precision medicine clinical workflows.
       </>
     ),
   },
   // Microbiome Engineering
   
   {
-    image: Precison1,
+    image: img19,
     title:  "Pharmacogenomics",
     description: (
       <>
- This track focuses on   {" "}
-        <Link
+This track examines how genetic variation influences drug response, efficacy, and safety. Topics include clinical implementation, dosing optimization, adverse event reduction, decision-support systems, and integrating pharmacogenomics into prescribing practices to improve therapeutic outcomes and support personalized medication management.  {" "}
+        {/* <Link
           to="/about-foodtech-conclave"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
   precision fermentation,
-        </Link>  highlighting advanced techniques for producing proteins, enzymes, and bioactive compounds with high efficiency and consistency. It explores applications in food innovation, sustainability, scalability, regulatory considerations, and the development of next-generation functional and alternative food products.
+        </Link>   */}
       </>
     ),
   },
   {
-    image: Cold,
+    image: img20,
     title: "Drug development",
     description: (
       <>
-      Explores cold plasma preservation as an emerging non-thermal food processing technology. It covers microbial inactivation, shelf-life extension, nutrient retention, safety, scalability, and applications across fresh, minimally processed, and packaged foods, promoting innovative and sustainable preservation solutions. {" "}
+This track explores precision-driven drug discovery and development processes. Topics include target identification, biomarker-guided trials, adaptive study designs, translational research, regulatory strategies, and accelerating personalized therapeutics from preclinical research to clinical application and global market access. {" "}
         {/* <Link
           to="/foodtech-conference-tracks/" 
           className="hover:text-accent hover:decoration-accent

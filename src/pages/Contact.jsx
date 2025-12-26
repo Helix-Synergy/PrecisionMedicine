@@ -199,9 +199,9 @@ const ContactForm = () => {
 
 >
  {/* Changed to style prop if banner_style is an object */} 
-         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
+         {/* <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
           Contact Us
-        </h1>
+        </h1> */}
       </div>
 
       <div className="w-full flex flex-col md:flex-row gap-6 py-4 items-stretch justify-center md:px-10 px-4">

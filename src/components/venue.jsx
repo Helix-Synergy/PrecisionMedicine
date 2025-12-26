@@ -4,12 +4,12 @@ import ImageGalleryCard from "./ui/ImageGalleryCard";
 import { Link } from "react-router-dom";
  
 const venueList = [
-  { id: 1, name: "CIUTADELLA PARK" },
-  { id: 2, name: "PICASSO MUSEUM" },
-  { id: 3, name: "LA BOQUERIA MARKET" },
-  { id: 4, name: "BARCELONETA BEACH" },
-  { id: 5, name: "CASA BATLLO" },
-  { id: 6, name: "LA RAMBLO" },
+  { id: 1, name: "Belvedere palace" },
+  { id: 2, name: "Hofburg Imperial palace" },
+  { id: 3, name: "Karlskirche (St.charles church)" },
+  { id: 4, name: "Leopold Museum" },
+  { id: 5, name: "schonbrunn palace" },
+  { id: 6, name: "Vienna state Opera" },
 
 ];
  

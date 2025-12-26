@@ -22,7 +22,7 @@ import AbstractSubmission from "./pages/AbstractSubmission";
 import BrochureDownload from "./pages/BrochureDownload";
 import FAQPage from "./pages/FAQPage";
 import ExecutiveMembers from "./pages/Executive_members";
-import banner from "./assets/banner.jpg"
+// import banner from "./assets/banner.jpg"
 function App() {
   const [showMiniNavbar, setShowMiniNavbar] = useState(true);
 
@@ -60,7 +60,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-       <div
+       {/* <div
       className="home"
       style={{
         backgroundImage: `url(${banner})`,
@@ -70,7 +70,7 @@ function App() {
       }}
     >
       {/* Your content */}
-    </div>
+    {/* </div>  */}
     </div>
   );
 }
