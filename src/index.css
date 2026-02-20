@@ -5,14 +5,14 @@
 :root {
   /* --tw-shadow-color: #7ab326; replaced with Purple */
   --tw-shadow-color: #438392;
---one: #438392;       /* Buttons, headings */
-  --primary: #1F1F1F;    /* Background dark */
- --accent: #438392;   /* Links, hover states */
+  --one: #438392; /* Buttons, headings */
+  --primary: #1f1f1f; /* Background dark */
+  --accent: #438392; /* Links, hover states */
 }
 
 /* Page Backgrounds */
 .home {
-  background-image: url("https://www.shutterstock.com/image-photo/physician-patient-examine-holographic-dna-260nw-2577081413.jpg");
+  background-image: url("./assets/HeroSectionImage.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 .marquee__content > * {
   flex: 0 0 auto;
   color: #ffffff;
-  background:#438392;
+  background: #438392;
   margin: 2px;
   padding: 1rem 2rem;
   border-radius: 0.25rem;

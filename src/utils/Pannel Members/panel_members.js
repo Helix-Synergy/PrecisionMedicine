@@ -33,7 +33,7 @@ export const panel_members_about = [
   {
     id: "Paulo",
     image: Claes,
-    name: "Claes Lundström",
+    name: "Claes Lundstrom",
     from: "Sweden",
     about: "Linköping University",
     // link: "/executive-panel-members/Paulo",
