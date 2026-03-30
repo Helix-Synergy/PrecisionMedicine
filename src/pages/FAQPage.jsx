@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is PRECISIONMEDICINE-2026?",
+    question: "What is PRECISIONMEDICINE-2027?",
     answer:
-      "PRECISIONMEDICINE-2026, officially titled the “Precision Medicine Summit”, is a premier international conference organized by Helix Conferences. It brings together clinicians, researchers, healthcare professionals, geneticists, biotech companies, pharma leaders, AI experts, and policy makers to explore advancements in personalized medicine, genomics, AI-driven healthcare, targeted therapies, and next-generation clinical solutions.",
+      "PRECISIONMEDICINE-2027, officially titled the “Precision Medicine Summit”, is a premier international conference organized by Helix Conferences. It brings together clinicians, researchers, healthcare professionals, geneticists, biotech companies, pharma leaders, AI experts, and policy makers to explore advancements in personalized medicine, genomics, AI-driven healthcare, targeted therapies, and next-generation clinical solutions.",
   },
   {
-    question: "When and where will PRECISIONMEDICINE-2026 take place?",
+    question: "When and where will PRECISIONMEDICINE-2027 take place?",
     answer:
-      "PRECISIONMEDICINE-2026 will take place in 2026. The exact dates and venue will be announced soon.",
+      "PRECISIONMEDICINE-2027 will take place in 2027. The exact dates and venue will be announced soon.",
   },
   {
-    question: "What are the highlights of PRECISIONMEDICINE-2026?",
+    question: "What are the highlights of PRECISIONMEDICINE-2027?",
     answer:
       "Keynote addresses, scientific sessions, clinical case studies, technology showcases, expert panels, research presentations, industry forums, and global networking opportunities in precision and personalized medicine.",
   },
   {
-    question: "What tracks are featured at PRECISIONMEDICINE-2026?",
+    question: "What tracks are featured at PRECISIONMEDICINE-2027?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          PRECISIONMEDICINE-2026 Tracks
+          PRECISIONMEDICINE-2027 Tracks
         </a>
         .
       </>
@@ -87,14 +87,14 @@ export const faqData = [
       "Presentation slots typically range from 15–20 minutes, including Q&A. Final guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who should attend PRECISIONMEDICINE-2026?",
+    question: "Who should attend PRECISIONMEDICINE-2027?",
     answer:
       "Clinicians, researchers, geneticists, healthcare professionals, biotech and pharma leaders, AI and data science experts, diagnostics companies, startups, investors, and academicians worldwide.",
   },
   {
     question: "How many attendees are expected?",
     answer:
-      "PRECISIONMEDICINE-2026 is expected to host 150+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
+      "PRECISIONMEDICINE-2027 is expected to host 150+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts or proposals?",
